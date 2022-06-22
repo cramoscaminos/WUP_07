@@ -1,11 +1,14 @@
 ---
 title: "covid 19"
-author: "Dr K"
-date: "5/2/2020"
+author: "Carmen Ramos-Caminos"
+date: "June 21,2022"
 output:
   html_document: default
   pdf_document: default
 ---
+```{r}
+
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
