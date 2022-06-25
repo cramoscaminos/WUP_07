@@ -25,10 +25,9 @@ Some of the data was uncoded for sex - sex must be just male or female
 77 of the data entries were coded sex  as blank, so we omit these.
 state of a patient must be died or alive - we adjust that as well   
   
-# Question 1 - Is dying independent of sex  
+# Question 1 - Is dying independent of sex    
 $H_o$: Dying is not dependent on sex  
 $H_a$: Dying is dependent on sex  
-
 
 
 Table of patients:
@@ -40,16 +39,10 @@ with(kRdata, table(Sex, result))
 
 ```
 
-## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
-
-`
+## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this 
 
   
-
-
-
-
-
+  
   
 ## Numerical results
 
