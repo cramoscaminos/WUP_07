@@ -82,6 +82,7 @@ chisqtestGC(table2)
 ```{r}
 fisher.test(table(kRdata$Sex, kRdata$result))
 ```
+
 The Chi-Square text p-value is 0.0012 less than 0.05.The odds ratio is 2x times greater that men will die from coiid.  I reject the null hypothesis that sex is not a factor that affects deaths after contracting covid. I accept the alternative hypothesis that sex is a factor that contributes to death after contracting the covid virus. 
 
 ## Conclusions
